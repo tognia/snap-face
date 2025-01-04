@@ -19,6 +19,8 @@ export class FaceSnapComponent {
   textButton!: string;
   userHasSnapped!: boolean;
 
+  
+
   ngOnInit(): void {
     this.title = 'Archibald';
     this.description = 'Mon meilleur ami depuis toujours !';
@@ -49,4 +51,5 @@ export class FaceSnapComponent {
     this.textButton = 'Oops, un Snap!';
     this.userHasSnapped = true;
   }
+  
 }
